@@ -5,9 +5,9 @@
 	<title>La Chouette agence : Contact</title>
     <meta name="description" content="Contactez notre équipe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
+	
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pdapHxIh7EYuwy6K7iE41uXVxGCXY0sAjBzaElYGJUrzwodck3Lx6IE2lA0rFREo" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
@@ -89,7 +89,7 @@
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<textarea class="form-control" id="how" rows="1" cols="50" required></textarea>
 					</div>
 					<div class="form-group">
 						<label>
@@ -101,18 +101,13 @@
 					</button>
 				</form>
 			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a class="bloc-button btn btn-d scrollToTop" aria-label="Remonter" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
@@ -125,25 +120,31 @@
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
+					<div class="mg-md col-xs-3">
 						<div class="text-center">
 							<a class="social" href="index.html" aria-label="Twitter"><span class="fab fa-twitter icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="mg-md col-xs-3">
 						<div class="text-center">
 							<a class="social" href="index.html" aria-label="Facebook"><span class="fab fa-facebook-f icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="mg-md col-xs-3">
 						<div class="text-center">
 							<a class="social" href="index.html" aria-label="Dribbble"><span class="fab fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="mg-md col-xs-3">
 						<div class="text-center">
 							<a class="social" href="index.html" aria-label="Instagram"><span class="fab fa-instagram icon-md"></span></a>
 						</div>
+					</div>
+					<div>
+						<p class="text-center center-block">contact@lachouetteagence.com<br>
+							2 place Sathonay 69001 Lyon<br>
+							Ouvert de 9h à 18h, du lundi au vendredi<br>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -155,9 +156,9 @@
 </div>
 <!-- Principal conteneur END -->
     
-<script src="./js/jquery-2.1.0.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/blocs.min.js"></script>
+<script src="./js/jquery-2.1.0.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha384-pPttEvTHTuUJ9L2kCoMnNqCRcaMPMVMsWVO+RLaaaYDmfSP5//dP6eKRusbPcqhZ" crossorigin="anonymous"></script>
+<script src="./js/blocs.js"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
 <script src="./js/formHandler.js"></script>
 
